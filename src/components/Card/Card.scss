@@ -1,0 +1,22 @@
+.Card {
+    width: 500px;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    margin: 30px 10px;
+    padding: 10px;
+
+    &__button {
+        padding: 1rem 3rem;
+        margin: 20px 10px 10px;
+        background-color: #7248b6;
+        color: white;
+        border: none;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #5c4187;
+            box-sizing: border-box;
+        }
+    }
+}

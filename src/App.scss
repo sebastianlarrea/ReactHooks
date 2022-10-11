@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Majorant-Bold';
+    src: url('assets/fonts/Majorant-Bd.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Majorant-Regular';
+    src: url('assets/fonts/Majorant-Rg.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Majorant-Regular';
+    background-color: #353b45;
+    user-select: none;
+}
+
+.App {
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}

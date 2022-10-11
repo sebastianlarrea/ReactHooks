@@ -1,0 +1,30 @@
+.Counter {
+    width: 500px;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+
+    &__counter {
+        font-size: 50px;
+    }
+
+    &__buttons {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__button {
+        padding: 1rem 3rem;
+        margin: 10px;
+        background-color: #7248b6;
+        color: white;
+        border: none;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #5c4187;
+            box-sizing: border-box;
+        }
+    }
+}

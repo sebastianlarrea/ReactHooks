@@ -1,0 +1,27 @@
+.Todo {
+    display: flex;
+    flex-direction: column;
+
+    color: white;
+    text-align: center;
+
+    &__box {
+        border: 1px solid white;
+        padding: 30px;
+        margin: 10px 30px;
+    }
+
+    &__button {
+        padding: 1rem 3rem;
+        margin: 20px 10px 10px;
+        background-color: #7248b6;
+        color: white;
+        border: none;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #5c4187;
+            box-sizing: border-box;
+        }
+    }
+}
