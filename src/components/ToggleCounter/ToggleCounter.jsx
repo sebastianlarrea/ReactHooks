@@ -10,7 +10,7 @@ function ToggleCounter() {
     return (
         <div className="ToggleCounter">
             <button className="ToggleCard__button" onClick={onToggleCounter}>
-                Mostrar/Ocultar Counter
+                Mostrar/Ocultar Contador
             </button>
             {toggleCounter && <Counter />}
         </div>
