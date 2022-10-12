@@ -1,4 +1,4 @@
-function getToolsService() {
+function getSoftwareToolsService() {
     const tools = [
         {
             id: 1,
@@ -29,4 +29,4 @@ function getToolsService() {
     return Promise.resolve({ status: 200, content: tools })
 }
 
-export default getToolsService
+export default getSoftwareToolsService
